@@ -45,11 +45,11 @@ const CollectionDetails = ({collectiblesArr}) => {
         {collectiblesArr.map((item, index) => (
           <div key={index} className="collectibles-card">
             <div className='card-top'>
-              <span style={{backgroundColor: "black", color: "#fff", fontSize: ".5rem", height: ".75rem",  borderRadius: "25%", padding: ".2rem"}}>2024</span>
-              <p style={{fontSize: ".5rem"}}>By <span style={{fontWeight: 500}}>Pablo</span></p>
+              <span style={{backgroundColor: "black", color: "#fff", fontSize: ".5rem", height: "1rem",  borderRadius: "25%", padding: ".2rem"}}>2024</span>
+              <p style={{fontSize: ".7rem"}}>By <span style={{fontWeight: 500}}>Pablo</span></p>
             </div>
 
-            <div style={{display: "flex", flexDirection: "column", alignItems: "center", fontSize: ".5rem", fontWeight: 500}}>
+            <div style={{display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2.7rem", fontSize: ".7rem", fontWeight: 500}}>
               <p>Collectible Name</p>
               <img src={item.default} alt={`Artist ${index + 1}`}/>
             </div>

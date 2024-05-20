@@ -161,6 +161,7 @@
   justify-content: space-between;
   text-align: center;
   width: 20rem;
+  margin-top: 1rem;
 }
 
 .avatar-img {
@@ -190,8 +191,8 @@
 }
 
 .collectibles-card img{
-  width: 8rem;
-  height: 9rem;
+  width: 7rem;
+  height: 8rem;
   border: 1px solid #15181B;
   border-radius: 8px;
 }
@@ -242,9 +243,6 @@
   align-items: center;
 }
 
-.artist {
-
-}
 
 .artist img {
   border-radius: 10px;
@@ -256,7 +254,7 @@
 }
 
 .switch-container {
-  margin-top: -4rem;
+  margin: -4rem 0rem 0rem 1.5rem;
 }
 
 .switch-button {
