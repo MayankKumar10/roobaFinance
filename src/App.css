@@ -255,6 +255,10 @@
   border-radius: 10px;
 }
 
+.switch-container {
+  margin-top: -4rem;
+}
+
 .switch-button {
   position: fixed;
   bottom: 8px;
