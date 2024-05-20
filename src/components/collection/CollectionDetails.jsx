@@ -14,23 +14,23 @@ const CollectionDetails = ({collectiblesArr}) => {
         <h4>Explore Your First <br /> Collectible</h4>
       </div>
 
-      <div className='event-name-container' style={{marginTop: "-2rem"}}>
+      <div className='event-name-container' style={{marginTop: "0rem"}}>
 
         <p className='event-header'>Meta</p>
-        <p className='event-header' style={{marginTop: "-4rem"}}>Lives</p>
+        <p className='event-header' style={{marginTop: "-6rem"}}>Lives</p>
         
         <div className='vanue-date' style={{marginTop: "-2rem"}}>
           <h4>Live in Astrix</h4>
         </div>
         
 
-        <div className='event-text' style={{marginTop: "-2rem"}}>
+        <div className='event-text' style={{marginTop: "1rem"}}>
           <p>Lorem ipsum dolor sit amet consectetur. Ac lorem massa in morbi et sed ipsum. Pellentesque mattis condimentum ut nulla. </p>
         </div>
       </div>
 
       <div className='avatar'>
-        <div>
+        <div style={{display: "flex"}}>
         {avtarsArr.map((avatar, i)=>(
           <img key={i} src={avatar.default} alt={avatar.default} className='avatar-img' />
         ))}

@@ -30,14 +30,14 @@ const EventContainer = () => {
          <div className='cont-text'>
           <div className='upperText'>
             <p>ASTR</p>
-            <p style={{marginTop: "-12rem"}}>IX</p>
+            <p style={{marginTop: "-5rem"}}>IX</p>
           </div>
          </div>
          
          <div className='cont-text'>
           <div className='lowerText'> 
             <p>EVE</p> 
-            <p style={{marginTop: "-12rem"}}>NTS</p> 
+            <p style={{marginTop: "-5rem"}}>NTS</p> 
           </div>
          </div>
           {/* <SwitchButton /> */}

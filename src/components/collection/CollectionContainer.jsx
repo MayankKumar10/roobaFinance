@@ -28,15 +28,15 @@ export const CollectionContainer = () => {
      <div className='cont-text'>
       <div className='upperText'>
         <p>ASTR</p>
-        <p style={{marginTop: "-12rem"}}>IX</p>
+        <p style={{marginTop: "-5rem"}}>IX</p>
       </div>
      </div>
      
      <div className='cont-text'>
       <div className='lowerText'> 
         <p>COLL</p> 
-        <p style={{marginTop: "-12rem"}}>ECTI</p>
-        <p style={{marginTop: "-12rem"}}>BLE</p> 
+        <p style={{marginTop: "-5rem"}}>ECTI</p>
+        <p style={{marginTop: "-5rem"}}>BLE</p> 
       </div>
      </div>
       {/* <SwitchButton /> */}

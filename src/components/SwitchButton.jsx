@@ -15,7 +15,8 @@ const SwitchButton = () => {
   };
 
   return (
-    <div className="flex items-center space-x-4 switch-button">
+    <div className="flex items-center space-x-4">
+      <span className={`font-semibold ${enabled ? 'text-gray-400' : 'text-black'}`}>Event</span>
       <div
         className={`relative inline-flex items-center h-8 w-16 rounded-full cursor-pointer transition-colors duration-300 ${
           enabled ? 'bg-green-500' : 'bg-gray-300'
@@ -42,6 +43,7 @@ const SwitchButton = () => {
           Collection
         </button>
       </div>
+      <span className={`font-semibold ${enabled ? 'text-black' : 'text-gray-400'}`}>Collection</span>
     </div>
   );
 };
