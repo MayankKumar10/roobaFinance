@@ -1,0 +1,12 @@
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #FFF4DF;
+  width: 100vw;
+}
+
+.splash-text {
+  width: 70rem;
+  padding-left: 10rem;
+}

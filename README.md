@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<img alt="EventSite preview" src="public/Preview/splash_page.png" width="150px" height="150px" />
+<img alt="EventSite preview" src="public/Preview/event_page.png" width="150px" height="150px" />
+<img alt="EventSite preview" src="public/Preview/collection_page.png" width="150px" height="150px" />
+
 ## Available Scripts
 
 In the project directory, you can run:

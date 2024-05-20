@@ -1,38 +1,267 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  max-width: 1280px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.container-text {
   display: flex;
   flex-direction: column;
+  font-family: "Lexend";
+  font-size: xx-large;
+  width: 15%;
+  color: #FFFFFF33;
+  margin: -10rem 0 0 1rem;
+}
+
+.slider-container{
+  width: 48rem;
+  margin: 1.2rem 0rem 0rem -.2rem;
+}
+
+.cont-text{
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 7.4 rem;
+  text-align: justify;
+  height: 15rem;
+}
+
+.upperText{
+  display: flex;
+  flex-direction: column;
+}
+
+.lowerText{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+}
+
+.event-carousel {
+  width: 40%;
+}
+
+.slick-slide img {
+  display: block;
+  width: 24rem
+}
+
+.event-container {
+  background-color: #15181B;
+}
+
+.event-logo-container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+/*----------Event Detail ----------*/
+
+.event-detail-container{
+  display: flex;
+  width: 28rem;
+  margin-top: -9rem;
+}
+
+.event-text-carousel-detail{
+  display: flex;
+}
+
+.event-details {
+  width: 40%;
+  flex: 1;
+  padding: 1rem;
+  background-color: #15181B;
+  color: #f4f4f4;
+  border-radius: 10px;
+  text-align: start;
+}
+
+.artist-album-img {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+}
+
+.event-detail-firstText{
+
+}
+
+.event-text{
+  text-align: start;
+}
+
+.vanue-date{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.event-header{
+  font-weight: 700;
+  width: 12rem;
+  font-size: xx-large;
+  line-height: 71.25px;
+}
+
+.event-name-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.event-vanue{
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+
+.event-date-time{
+  display: flex;
+  width: 58%;
+  align-items: center;
+
+}
+
+.qr-join-button{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 3rem 0rem 0rem 0rem
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 20rem;
+}
+
+.avatar-img {
+  width: 25px; 
+  height: 25px; 
+  border-radius: "50%" 
+}
+
+.card-detail-container{
+  padding-left: 1.5rem;
+}
+
+.collectibles-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.collectibles-card {
+  width: 12.5rem;
+  height: 13rem;
+  background-color: #B9A0FF;
+  color: #15181B;
+  border-radius: .75rem;
+  padding: .1rem;
+}
+
+.collectibles-card img{
+  width: 8rem;
+  height: 9rem;
+  border: 1px solid #15181B;
+  border-radius: 8px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  padding: .2rem .2rem 0 .2rem;
+  align-items: center;  
+}
+
+
+.scrolling-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  width: 12%;
+  overflow: hidden;
+  background-color: #B9A0FF;
+  color: #000;
+  font-size: 1.2rem;
+  height: 100vh;
+  margin-top: 0;
+  text-align: center;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.marquee {
+  box-sizing: border-box;
+  animation: marquee 30s linear infinite;
+  margin: 0 auto;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
+@keyframes marquee {
   from {
-    transform: rotate(0deg);
+    transform: translateY(0);
   }
   to {
-    transform: rotate(360deg);
+    transform: translateY(-150%);
   }
+}
+
+.artist-lineup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist {
+
+}
+
+.artist img {
+  border-radius: 10px;
+}
+
+.carousel .slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.switch-button {
+  position: fixed;
+  bottom: 8px;
+  left: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.switch-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
